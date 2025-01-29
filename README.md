@@ -1,33 +1,65 @@
 # 🚀 DeepSeek R1 Running Locally – Full Setup Guide  
 
 ## 🔥 What is DeepSeek R1?  
-DeepSeek R1 is a powerful **open-source AI model** that competes with **OpenAI o1** and **Claude 3.5 Sonnet** in math, coding, and reasoning tasks. The best part? You can run it **locally on your machine** for **free**, with **total privacy!**  
+![alt text](Assets/deepseek.jpg)
+- **DeepSeek R1** is a powerful **open-source AI model** that rivals **OpenAI o1** and **Claude 3.5 Sonnet** in **math, coding, and reasoning tasks**.  
+- The best part? You can run it **locally on your own machine** for **free**, ensuring **total privacy** without relying on cloud services.
 
 ## 🛠️ Setup Guide (Windows, Mac, Linux)  
 Follow these simple steps to get DeepSeek R1 running on your system:  
 
-### 1️⃣ Install Ollama  
-Ollama is a tool for running AI models locally. Download it here:  
-🔗 [Ollama Download](https://ollama.com/download)  
+### 1️. Install Ollama  
 
-### 2️⃣ Pull and Run DeepSeek R1 Locally  
-Ollama supports multiple DeepSeek R1 model sizes. **Larger models require better GPU power.**  
+ - Ollama is a framework for running large language models (LLMs) locally on your machine. It lets you download, run, and interact with AI models without needing cloud-based APIs. 
+ - #### Download it here:  🔗 [Ollama Download](https://ollama.com/download)  
 
-#### Available Model Sizes:  
-- **1.5B (smallest)** → `ollama run deepseek-r1:1.5b`  
-- **8B** → `ollama run deepseek-r1:8b`  
-- **14B** → `ollama run deepseek-r1:14b`  
-- **32B** → `ollama run deepseek-r1:32b`  
-- **70B (largest/smartest)** → `ollama run deepseek-r1:70b`  
+### 2️. Download Models 
+#### DeepSeek R1 comes in different sizes, each tailored for various levels of processing power and use cases. Below are the model options you can choose from:
 
-**Start small!** Run the following command in your terminal to begin:  
-```sh  
-ollama run deepseek-r1:8b  
-```  
+<details>
+ <summary> <b> 1.5B (smallest)</b> : lightest, ideal for testing or low-resource machines. </summary>
 
-⚠️ **Note:** The **32B and 70B versions require a powerful GPU**. Start small and upgrade based on your hardware capabilities.  
+```
+ollama run deepseek-r1:1.5b
+```
+</details>
 
-### 3️⃣ Set Up Chatbox for a Clean UI  
+<details>
+ <summary> <b> 8B </b> : (Faster) Balanced performance, a solid starting point </summary>
+  
+ ```
+ ollama run deepseek-r1:8b
+ ```  
+</details>
+
+<details>
+ <summary> <b>  14B </b> : Improved performance for demanding tasks (High-Level GPU) </summary>
+   
+``` 
+ollama run deepseek-r1:14b
+```
+</details>
+
+<details>
+<summary> <b>  32B  </b>  : Larger and more powerful, need Enterprise-level GPU power. </summary>
+  
+```
+ollama run deepseek-r1:32b
+```
+</details>
+
+<details>
+ <summary> <b> 70B (largest/smartest) </b> :  (IMPOSSIBLE) Larger and more powerful, needs more GPU power. </summary>
+   
+```
+ollama run deepseek-r1:70b
+```
+</details>
+
+- Select Your Model based on your device.
+- Open Command Prompt and 
+
+### 3️. Set Up fo  
 [Chatbox](https://chatboxai.app) is a **free, privacy-focused desktop client** for AI models.  
 
 #### Steps to Configure Chatbox with Ollama:  
@@ -35,6 +67,7 @@ ollama run deepseek-r1:8b
 2. Open **Settings** and change the **model provider** to **Ollama**  
 3. Set the Ollama API host to `http://127.0.0.1:11434`  
 4. **Save settings & start chatting with DeepSeek R1!** 🚀  
+
 
 ---  
 
