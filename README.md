@@ -67,7 +67,7 @@ ollama run deepseek-r1:70b
 3. **Execute Command**  :   Run the command for your selected model in the terminal.
 
 
-### 4. Set Up for User Interface
+### 4. Set Up for User Interface (OPTIONAL)
 
 #### Steps to Configure Chatbox with Ollama:  
 1. Download & install [Chatbox](https://chatboxai.app)  
