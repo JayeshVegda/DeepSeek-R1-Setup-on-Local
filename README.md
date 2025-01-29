@@ -1,4 +1,4 @@
-# 🚀 Got DeepSeek R1 Running Locally – Full Setup Guide  
+# 🚀 DeepSeek R1 Running Locally – Full Setup Guide  
 
 ## 🔥 What is DeepSeek R1?  
 DeepSeek R1 is a powerful **open-source AI model** that competes with **OpenAI o1** and **Claude 3.5 Sonnet** in math, coding, and reasoning tasks. The best part? You can run it **locally on your machine** for **free**, with **total privacy!**  
