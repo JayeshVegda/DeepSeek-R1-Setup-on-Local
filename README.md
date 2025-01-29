@@ -14,7 +14,8 @@ Follow these simple steps to get DeepSeek R1 running on your system:
  - #### Download it here:  🔗 [Ollama Download](https://ollama.com/download)  
 
 ### 2️. Download Models 
-#### DeepSeek R1 comes in different sizes, each tailored for various levels of processing power and use cases. Below are the model options you can choose from:
+#### DeepSeek R1 comes in different sizes, each tailored for various levels of processing power and use cases.
+#### Below are the model options you can choose from:
 
 <details>
  <summary> <b> 1.5B (smallest)</b> : lightest, ideal for testing or low-resource machines. </summary>
@@ -49,40 +50,30 @@ ollama run deepseek-r1:32b
 </details>
 
 <details>
- <summary> <b> 70B (largest/smartest) </b> :  (IMPOSSIBLE) Larger and more powerful, needs more GPU power. </summary>
+ <summary> <b> 70B (largest/smartest) </b> :   ( ⚠️ IMPOSSIBLE) Larger and more powerful, needs more GPU power. </summary>
    
 ```
 ollama run deepseek-r1:70b
 ```
 </details>
 
-- Select Your Model based on your device.
-- Open Command Prompt and 
 
-### 3️. Set Up fo  
-[Chatbox](https://chatboxai.app) is a **free, privacy-focused desktop client** for AI models.  
+### 3. Setup Instructions
+
+1. **Select Your Model** : Choose the appropriate model based on your device.
+
+2. **Open Command Prompt**  : Launch the Command Prompt on your system.
+
+3. **Execute Command**  :   Run the command for your selected model in the terminal.
+
+
+### 4. Set Up for User Interface
 
 #### Steps to Configure Chatbox with Ollama:  
 1. Download & install [Chatbox](https://chatboxai.app)  
-2. Open **Settings** and change the **model provider** to **Ollama**  
+2. Go To  **Settings** and change the **model provider** to **Ollama**  
 3. Set the Ollama API host to `http://127.0.0.1:11434`  
-4. **Save settings & start chatting with DeepSeek R1!** 🚀  
+4. **Save settings & start chatting with DeepSeek R1 Model!** 
 
+#### ❇️ Alternatively, you can use [OpenWebUI](docs.openwebui.com/getting-started) for the user interface. But it needs Docker setup and might not be ideal for beginners. 
 
----  
-
-## 🧪 Performance Tests  
-Here are some **real-world tests** I ran on my local DeepSeek R1 setup:  
-
-### 🔹 Explain TCP  
-DeepSeek R1 provided a solid technical explanation of TCP concepts.  
-
-### 🔹 Generate a Pac-Man Game  
-It successfully generated Pac-Man game code! Though, some small bugs required manual fixes.  
-
----  
-
-## 🤔 Final Thoughts  
-I was initially **skeptical** due to the hype around AI models, but **DeepSeek R1 performs surprisingly well** for a **free, open-source model** that runs locally. It may not fully replace OpenAI or Claude, but it's a **great self-hosted alternative** for coding, reasoning, and general AI tasks.  
-
-What do you think? **Try it out and let me know your thoughts!** 👇  
